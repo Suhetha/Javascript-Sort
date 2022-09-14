@@ -1,0 +1,13 @@
+<html>
+<body>
+<h5>The sort() method sorts an array alphabetically:</h5>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+const Countries = ["Ukraine", "France", "Russia", "Indian"];
+document.getElementById("demo1").innerHTML = Countries;
+Countries.sort();
+document.getElementById("demo2").innerHTML = Countries;
+</script>
+</body>
+</html>
